@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadSample", "AsyncAwaitSamples\ThreadSample.csproj", "{60F2B2A1-03C0-46FC-A9E8-597AEFC57A7A}"
 EndProject
@@ -16,6 +16,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ParallelSamples", "ParallelSamples", "{7BF8EB9B-12BB-461C-885C-BFB3D44C4766}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AsyncSamples", "AsyncSamples", "{AFB24C7B-AB0D-4672-801E-E63A152BBAEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwaitDifference", "AsyncAwaitSample\AsyncAwaitDifference.csproj", "{4DF1AB23-2129-437C-B233-454596BD10CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwaitSimulation", "AsyncAwaitSimulation\AsyncAwaitSimulation.csproj", "{83DF7462-C343-4D80-ABF6-698B20918D1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadExceptionSample", "ThreadExceptionSample\ThreadExceptionSample.csproj", "{99472E1C-0605-4E24-A79B-96238D850D10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,8 +49,28 @@ Global
 		{C70EFD30-8087-4170-8AA5-3848F6AA5F72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C70EFD30-8087-4170-8AA5-3848F6AA5F72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C70EFD30-8087-4170-8AA5-3848F6AA5F72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DF1AB23-2129-437C-B233-454596BD10CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DF1AB23-2129-437C-B233-454596BD10CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DF1AB23-2129-437C-B233-454596BD10CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DF1AB23-2129-437C-B233-454596BD10CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83DF7462-C343-4D80-ABF6-698B20918D1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83DF7462-C343-4D80-ABF6-698B20918D1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83DF7462-C343-4D80-ABF6-698B20918D1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83DF7462-C343-4D80-ABF6-698B20918D1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99472E1C-0605-4E24-A79B-96238D850D10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99472E1C-0605-4E24-A79B-96238D850D10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99472E1C-0605-4E24-A79B-96238D850D10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99472E1C-0605-4E24-A79B-96238D850D10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{60F2B2A1-03C0-46FC-A9E8-597AEFC57A7A} = {7BF8EB9B-12BB-461C-885C-BFB3D44C4766}
+		{B4F67BCD-E568-418E-A017-096A68023997} = {7BF8EB9B-12BB-461C-885C-BFB3D44C4766}
+		{1E5D51D3-B716-4363-AD47-5EA646A744A3} = {7BF8EB9B-12BB-461C-885C-BFB3D44C4766}
+		{C70EFD30-8087-4170-8AA5-3848F6AA5F72} = {7BF8EB9B-12BB-461C-885C-BFB3D44C4766}
+		{4DF1AB23-2129-437C-B233-454596BD10CE} = {AFB24C7B-AB0D-4672-801E-E63A152BBAEC}
+		{83DF7462-C343-4D80-ABF6-698B20918D1E} = {AFB24C7B-AB0D-4672-801E-E63A152BBAEC}
 	EndGlobalSection
 EndGlobal

@@ -16,6 +16,7 @@ namespace AsyncAwaitSamples
             var thread = new Thread(() => LongRoutines.LongJob(3000));
             thread.Start();
             Console.WriteLine("Waiting...");
+            Console.WriteLine("Press a key");
             Console.ReadKey();
         }
     }

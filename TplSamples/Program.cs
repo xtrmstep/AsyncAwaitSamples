@@ -18,6 +18,7 @@ namespace TplSamples
             new TaskFactory().StartNew(() => LongRoutines.LongJob(3000));
 
             Console.WriteLine("Waiting...");
+            Console.WriteLine("Press a key");
             Console.ReadKey();
         }
     }

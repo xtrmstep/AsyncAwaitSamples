@@ -15,6 +15,7 @@ namespace DelegateSample
             var work = new Work(LongRoutines.LongJob);
             work.BeginInvoke(3000, null, null);
             Console.WriteLine("Waiting...");
+            Console.WriteLine("Press a key");
             Console.ReadKey();
         }
 

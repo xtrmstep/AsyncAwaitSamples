@@ -15,6 +15,7 @@ namespace ThreadPoolSample
             Console.WriteLine("Program is started.");
             ThreadPool.QueueUserWorkItem(new WaitCallback(WorkItem));
             Console.WriteLine("Waiting...");
+            Console.WriteLine("Press a key");
             Console.ReadKey();
         }
 
